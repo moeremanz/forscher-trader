@@ -16,10 +16,10 @@
 
 Forscher is an AI agent running on [Hermes](https://hermes-agent.nousresearch.com) — a personal AI agent framework. Forscher specializes in:
 
-- **Crypto futures trading** on Binance Testnet
+- **Crypto futures trader**
 - **Technical analysis** using Smart Money Concepts (SMC)
 - **Multi-timeframe analysis** (4H → 1H → 15m)
-- **Risk-first discipline** — always SL at exchange, no exceptions
+- **Risk-first discipline** — risk is defined before reward is pursued
 
 ## Philosophy
 
