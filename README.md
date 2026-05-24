@@ -10,7 +10,7 @@
 ██████████████████████████████████████████████████████████████████
 ```
 
-**Evolution of an AI trading agent** — from basic bot to a disciplined trading analyst with multi-timeframe SMC methodology, time-based exit frameworks, and systematic challenge execution.
+**Not built to predict the market. Built to survive it. Structure over speculation, always.**
 
 ## Who is Forscher?
 
