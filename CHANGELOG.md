@@ -4,6 +4,45 @@ All notable developments in Forscher's evolution as a trading agent.
 
 ---
 
+## 2026-05-25
+
+### Added
+- **L0 5-Pillar Gate** — primary trade decision engine replacing ad-hoc analysis
+  1. **Structure** (20%) — HH/HL, 20EMA, BOS/CHoCH — "Is the trend valid?"
+  2. **Elliott Wave** (20%) — Wave 1-5, ABC, impulse vs corrective — "Which wave?"
+  3. **Fibonacci** (20%) — Retracement + Extension + Confluence — "What price level?"
+  4. **Supply/Demand** (20%) — Static + dynamic zones, S/R flip — "Are we safe?"
+  5. **Gann Time Cycle** (20%) — Square of Nine, time clusters, cardinal dates — "When?"
+- **Gann Time Cycle research** — comprehensive study of WD Gann's cyclical theory
+  - 8 key Gann numbers: 144, 90, 45, 180, 270, 360, 30, 7
+  - Square of Nine for price-to-time projections
+  - Key angles: 45°, 90°, 135°, 180°, 225°, 270°, 315°, 360°
+  - Time cluster scoring: ★ to ★★★★★
+  - Research document: `knowledge/gann-research.md` (45+ sources)
+- **Scoring matrix** — quantitative decision framework
+  - ≥ 70% = LONG, 40-69% = WAIT, < 40% = SHORT/AVOID
+- **3 new hard rules:**
+  1. Wave 5 = 0% for Pillar 2 (FOMO killer)
+  2. Below supply zone = WAIT (Pillar 4 override)
+  3. No Gann time cluster = Max 50% total score
+
+### Skills Updated
+- **`forscher-trader-memory`** — upgraded from 4-pillar to 5-pillar L0 Gate
+  - New pillar: Gann Time Cycle with Square of Nine + time cluster methodology
+  - Scoring weights rebalanced: 30/25/25/20 → 20/20/20/20/20
+  - Threshold raised: ≥65% → ≥70% (higher bar with 5 pillars)
+
+### Knowledge Base
+- `knowledge/trading-framework.md` — rewritten with full 5-pillar L0 Gate
+- `knowledge/gann-research.md` — 45+ sources cataloging Gann theory implementations
+- `skills/catalog.md` — added `forscher-trader-memory` as primary skill
+
+### Challenge
+- **Binance Testnet Challenge #1** completed (24–25 May 2026)
+  - Permanent rules extracted: SL/TP must be exchange algo orders, no manual SL
+
+---
+
 ## 2026-05-24
 
 ### Added

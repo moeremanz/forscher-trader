@@ -4,6 +4,10 @@ Forscher's trading skills — reusable knowledge modules stored as Hermes skills
 
 ## Active Trading Skills
 
+### `forscher-trader-memory`
+**Category:** trading  
+**Purpose:** **L0 5-Pillar Gate** — the primary decision engine for every trade. Structure, Elliott Wave, Fibonacci, Supply/Demand, and Gann Time Cycle. Scoring matrix with hard rules (Wave 5 = 0%, below supply = WAIT, no time cluster = max 50%). Also serves as trading journal and postmortem system.
+
 ### `smart-money-concepts`
 **Category:** trading  
 **Purpose:** ICT Smart Money Concepts methodology — Order Blocks, Fair Value Gaps, Break of Structure, Change of Character, Liquidity zones, Sessions, Retracements. Mandatory for every trade analysis.

@@ -1,6 +1,85 @@
 # Trading Framework
 
-Forscher's trading methodology, built on Smart Money Concepts (SMC) with a disciplined multi-timeframe approach.
+Forscher's trading methodology — a multi-pillar decision engine built on Smart Money Concepts (SMC), Elliott Wave, Fibonacci, Supply/Demand, and Gann Time Cycles.
+
+## L0 Gate — 5-Pillar Decision Engine
+
+The 5-pillar framework is the **primary gate** for every trade. All five pillars must be evaluated before any entry.
+
+| # | Pillar | Question | Weight | Tools |
+|---|--------|----------|--------|-------|
+| 1 | **Structure** | Is the trend valid? | 20% | HH/HL, 20EMA, BOS/CHoCH |
+| 2 | **Elliott Wave** | Which wave are we in? | 20% | Wave 1-5, ABC, impulse vs corrective |
+| 3 | **Fibonacci** | At what price level? | 20% | Retracement 0.382/0.5/0.618, Extension 1.272/1.618 |
+| 4 | **Supply/Demand** | Are we in a safe zone? | 20% | Static + dynamic zones, S/R flip |
+| 5 | **Gann Time Cycle** | When will momentum arrive? | 20% | Square of Nine, time clusters, cardinal dates |
+
+> *"Structure tells IF. Elliott tells WHERE in cycle. Fibonacci tells WHERE in price. S/D tells WHY. Gann tells WHEN."*
+
+### Scoring Matrix
+
+```
+SCORE = P1(20) + P2(20) + P3(20) + P4(20) + P5(20)
+MAX   = 100
+```
+
+| Score | Decision |
+|-------|----------|
+| ≥ 70% | **LONG** — Valid entry |
+| 40-69% | **WAIT** — Insufficient confirmation |
+| < 40% | **SHORT/AVOID** — Not tradeable |
+
+### Hard Rules
+
+1. **Wave 5 = 0% for Pillar 2** — NEVER enter on Wave 5. FOMO killer.
+2. **Below supply zone = WAIT** — Even if 4 other pillars are bullish, Pillar 4 overrides.
+3. **No Gann time cluster = Max 50% total score** — At least 1 cycle confluence required.
+
+## Pilar 5: Gann Time Cycle
+
+### Key Gann Numbers
+
+```
+144   ← Master cycle (days/weeks/months) — most powerful
+90    ← Quarterly
+45    ← Half-quarterly
+180   ← Semi-annual
+270   ← ¾ annual
+360   ← Full annual
+30    ← Monthly
+7     ← Weekly
+```
+
+### Square of Nine
+
+Input a significant price (swing high/low) into the Square of Nine spiral:
+- **Support/Resistance levels** — horizontal price targets
+- **Time projections** — which day price will reach a level
+- **Key angles:** 45°, 90°, 135°, 180°, 225°, 270°, 315°, 360°
+
+### Time Cluster Scoring
+
+```
+★★★★★  3+ cycles converge on the same date
+★★★★   2 cycles converge
+★★★    1 major cycle (144/90/360)
+★★     Minor cycle only (30/45/7)
+★      No cycle detected
+```
+
+### Ultimate Confluence
+
+Wave 3 + 0.618 Fibonacci + Demand zone + Gann 144-day cycle + Square of Nine 180° angle = **★★★★★ setup**
+
+### Gann References
+
+- **Robert Miner** — Time/Price/Pattern: Gann + Elliott + Fibonacci (SacredTraders)
+- **Bramesh** — Time cluster convergence analysis (brameshtechanalysis.com)
+- **Patrick Mikula** — Trading the Square of Nine (PDF definitive guide)
+- **Galarius/gann-square** — Python Square of Nine (GitHub)
+- **JPMonty/Gann-time-series** — Python time node detection (GitHub)
+- **monch1962/gann-swing** — Python Gann swing calculator (GitHub)
+- **Ecency/NewsBTC** — Bitcoin 144-day/week cycle evidence
 
 ## Core Principles
 
@@ -92,4 +171,4 @@ Backtest-validated on BTCUSDT and NEARUSDT across all timeframes.
 
 ---
 
-*Last updated: 2026-05-24*
+*Last updated: 2026-05-25*
