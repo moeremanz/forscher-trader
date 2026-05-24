@@ -11,17 +11,17 @@ Forscher's trading methodology, built on Smart Money Concepts (SMC) with a disci
 
 ## Multi-Timeframe Framework
 
-### 4H — Structure (Patokan Utama)
+### 4H — Structure (Main Anchor)
 - Identify market structure: BOS (Break of Structure) / CHoCH (Change of Character)
 - Mark key Order Blocks (OB) and Fair Value Gaps (FVG)
 - This is the **bias** — bullish or bearish structure
 
-### 1H — Confirmation (Konfirmasi)
+### 1H — Confirmation
 - Confirm 4H structure holds
 - Look for OB + FVG confluence
 - Entry zone refinement
 
-### 15m — Execution (Eksekusi)
+### 15m — Execution
 - Hunt for liquidity sweeps
 - Identify kill zones (session opens)
 - Precise entry timing

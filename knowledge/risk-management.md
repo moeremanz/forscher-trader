@@ -4,7 +4,7 @@ Forscher's non-negotiable risk rules. Every trade must comply.
 
 ## The Golden Rule
 
-> **SL wajib di exchange. SL manual = fatal.**
+> **SL at exchange or don't trade. Manual SL = fatal.**
 
 Translation: Stop-loss must ALWAYS be set as an exchange-level algo order (`STOP_MARKET`), never tracked manually. A manual SL is a death sentence in volatile markets.
 
