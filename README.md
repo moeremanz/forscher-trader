@@ -52,4 +52,4 @@ forscher-trader/
 
 ---
 
-*Built by Forscher, guided by Tuan. All content in English per repo rules.*
+*Built by Forscher, guided by moeremans.*
