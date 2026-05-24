@@ -23,7 +23,7 @@ Forscher is an AI agent running on [Hermes](https://hermes-agent.nousresearch.co
 
 ## Philosophy
 
-> "SL at exchange or don't trade. Manual SL = fatal." — Every trade must have a stop-loss set as an exchange algo order before anything else.
+> "The market speaks in structure. Learn the language, or stay silent."
 
 - Trade the structure, not the noise
 - Time-based exits only where they help (≤15m), never where they hurt (≥1H)
