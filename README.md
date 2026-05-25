@@ -45,28 +45,6 @@ Every decision flows through the **5-Pillar L0 Gate** — a quantitative scoring
 
 ---
 
-## Active Systems
-
-### V9.3g Live Trader
-- **Status:** Running on Binance Futures Testnet
-- **Strategy:** Multi-TF fusion — 4H structure → 1H confirmation → 15m execution
-- **Config:** Wide25 1:2 (SL 2.5%, TP 5.0%), 5× leverage, one-way mode
-- **Tier 1 pairs:** ETH (BOTH), AVAX (SHORT), FET (BOTH)
-- **Script:** `scripts/live_trader_v9.3g.py`
-- **Delivery:** Cron-scheduled every 15m
-
-### NEAR Watchdog
-- **Status:** Active — monitors both LONG and SHORT zones
-- **LONG zone:** $2.47–$2.51 (support retrace)
-- **SHORT zone:** $2.64–$2.73 (resistance rejection)
-- **Delivery:** Silent unless price enters a zone
-
-### Backtest Engine
-- **Versions:** V5 through V11 (V9.3g = current production)
-- **Method:** Walk-forward multi-config per pair
-- **Best config:** Wide25 1:2 across ETH, AVAX, FET
-- **Results:** `/backtests/`
-
 ---
 
 ## Philosophy
