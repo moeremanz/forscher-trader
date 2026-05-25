@@ -28,8 +28,8 @@ SYMBOLS = [
 
 CALIBRATION_START = '2025-12-01T00:00:00Z'
 CALIBRATION_END   = '2026-02-01T00:00:00Z'    # Dec+Jan = 2 months
-TRADING_START     = '2026-02-01T00:00:00Z'
-TRADING_END       = '2026-05-25T00:00:00Z'    # Feb–May = ~4 months
+TRADING_START     = '2026-04-25T00:00:00Z'  # Last 30 days only
+TRADING_END       = '2026-05-25T00:00:00Z'
 
 MAX_PAIRS_PER_DAY = 50  # effectively no filter
 

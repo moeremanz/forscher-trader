@@ -40,7 +40,7 @@ Forscher's trading skills — reusable knowledge modules stored as Hermes skills
 
 ### `market-environment` (forscher-market-environment)
 **Category:** crypto  
-**Purpose:** Market environment analysis — Fear & Greed, BTC dominance, total market cap — to determine exposure levels before screening.
+**Purpose:** ~~Market environment analysis — Fear & Greed, BTC dominance, total market cap.~~ **DEPRECATED — replaced by pure price geometry screening (BTC 4H + BTC.D + TOTAL2).** No longer loaded. See `knowledge/market-screening.md`.
 
 ### `binance` (binance-skills-hub)
 **Category:** trading  

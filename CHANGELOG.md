@@ -6,6 +6,23 @@ All notable developments in Forscher's evolution as a trading agent.
 
 ## 2026-05-25
 
+### Changed
+- **Philosophy shift: Pure Price Geometry** — removed all sentiment-based indicators
+  - Replaced Fear & Greed with BTC 4H structure + BTC.D + TOTAL2 for macro assessment
+  - `knowledge/market-screening.md` — completely rewritten with volume/liquidity funnel
+  - `knowledge/risk-management.md` — exposure model now scales with structure, not sentiment
+  - `README.md` — rewritten to reflect pure price geometry approach
+  - `skills/catalog.md` — `market-environment` (F&G-based) marked DEPRECATED
+- **Backtests cleanup** — archived pre-Wide25 versions (V5-V7) and early experiments to `backtests/archive/`
+
+### Added
+- `scripts/live_trader_v9.3g.py` — V9.3g production live trader tracked in repo
+- Exposure Matrix in `market-screening.md` — combined BTC 4H + BTC.D + TOTAL2 filter
+- "What We DON'T Use" section — explicit rejection of sentiment, news, and fixed allocation
+
+### Updated
+- `challenges/01-testnet-2026-05-24.md` — marked as Completed ✅
+
 ### Added
 - **L0 5-Pillar Gate** — primary trade decision engine replacing ad-hoc analysis
   1. **Structure** (20%) — HH/HL, 20EMA, BOS/CHoCH — "Is the trend valid?"

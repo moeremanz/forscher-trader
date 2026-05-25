@@ -22,15 +22,17 @@ Verify with `GET /fapi/v1/algoOpenOrders` before and after every position.
 
 ## Exposure Model
 
-Exposure is **not fixed** — it scales with market environment:
+Exposure is **not fixed** — it scales with market structure, not sentiment:
 
-| Fear & Greed | BTC Dominance | Max Exposure (% of capital) |
-|-------------|---------------|---------------------------|
-| > 60 (Greed) | < 54% | 30% |
-| 30–60 (Neutral) | 54–57% | 15% |
-| < 30 (Extreme Fear) | > 57% | 5% or sit out |
+| BTC 4H Structure | BTC.D Trend | TOTAL2 Structure | Max Exposure |
+|-----------------|-------------|-----------------|-------------|
+| 🟢 HH/HL (UP) | Falling | HH/HL | 100% |
+| 🟢 HH/HL (UP) | Rising | HH/HL | 75% |
+| 🟡 Range | Falling | HH/HL | 50% |
+| 🟡 Range | Flat/Rising | Range | 25% |
+| 🔴 LH/LL (DOWN) | Any | LH/LL | 0% — sit out |
 
-Example: $25 capital, F&G=25 + BTC.D=58% → ceiling = $1.25 notional. That's barely worth it. Wait.
+See `market-screening.md` for the full Exposure Matrix with combined filter logic.
 
 ## Position Rules
 
@@ -55,7 +57,7 @@ Active challenges have additional constraints:
 
 ## Pre-Trade Checklist
 
-- [ ] Market environment score checked (F&G, BTC.D)
+- [ ] Market environment assessed (BTC 4H, BTC.D, TOTAL2)
 - [ ] 4H structure identified (bullish/bearish/neutral)
 - [ ] 1H confirmation found (OB + FVG)
 - [ ] 15m execution zone identified (liquidity + kill zone)
