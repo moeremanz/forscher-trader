@@ -80,10 +80,10 @@ forscher-trader/
 │   └── backtest_v9.3.py             — Current production
 │
 ├── scripts/
-│   └── live_trader_v9.3g.py         — Live V9.3g execution script
+│   └── live_trader_v9.3g.py.retired  — V9.3g (retired, Binance testnet terminated)
 │
 ├── challenges/
-│   └── 01-testnet-2026-05-24.md     — Challenge #1 log
+│   └── 01-testnet-2026-05-24.md     — Challenge #1 (🔴 TERMINATED)
 │
 └── tools/
     └── orcarouter.md                — LLM routing integration

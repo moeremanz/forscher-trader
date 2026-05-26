@@ -1,34 +1,41 @@
-# Environment files with credentials
-.env
-*.env
-!*.env.example
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
 
-# API keys and secrets
-*_secret*
-*_api_key*
-*.pem
-*.key
-
-# OS files
-.DS_Store
-Thumbs.db
+# Virtual env
+venv/
+.venv/
+env/
 
 # IDE
-.idea/
 .vscode/
+.idea/
 *.swp
 *.swo
 
-# Python
-__pycache__/
-*.pyc
-.venv/
-venv/
+# OS
+.DS_Store
+Thumbs.db
 
-# Node
-node_modules/
+# Secrets
+.env
+mexc_config.json
+*.key
+*.pem
 
-# Hermes
-.hermes/cache/
-.hermes/logs/
-.hermes/sessions/
+# Backtest data (keep summary only)
+backtests/*.json
+backtests/archive/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
